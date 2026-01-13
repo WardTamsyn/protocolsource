@@ -137,6 +137,7 @@ Sla de gegevens op en start aansluitend met de vervangprocedure (zie \@ref(lokal
 
 Blijkt, na het doorlopen van bovenstaande stappen, dat de steekproefeenheid **het doeltype bevat**, dan voer je aansluitend een celkartering en markering uit.
 De celkartering houdt in dat je ter plaatse beoordeelt waar het doeltype actueel aanwezig is in de 32 m op 32 m rastercel.
+test
 
 **1.Plaats een markering**
 
