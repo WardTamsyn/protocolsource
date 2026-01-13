@@ -99,14 +99,30 @@ De wijze waarop het wordt geëvalueerd is afhankelijk van het doeltype:
 -   voor alle andere terrestrische types (behalve 7220) dient het doeltype aanwezig te zijn in het midden van de rastercel.
 
 De bepaling van het aanwezige habitat(sub)type of rbb gebeurt met behulp van de [veldsleutels](https://www.vlaanderen.be/inbo/de-biologische-waarderingskaart/bwk-handleiding-veldsleutels/).
+Het doeltype moet op minstens 9 m^2^ aanwezig zijn binnen de rastercel, uitgezonderd bij 7150, daar wordt de ondergrens van 4 m^2^ gehanteerd.
+
+Omdat door veranderingen op het terrein, onnauwkeurigheden in de afbakening van de types of het voorkomen van complexen in de karteringen het type kan afwijken van het type op de Habitatkaart dienen we steeds het type te bepalen met behulp van de veldsleutels.
+Het schaalniveau waarop de sleutel dient toegepast te worden is niet dat van het celmidden, maar deze van de min of meer homogene vegetatievlek waarin het celmidden zich bevindt.
+Om de finale beslissing te maken of het punt wordt meegenomen in de steekproef wordt een denkbeeldig 3x3 m proefvlak beoordeeld ten noordwesten van het celmidden.
+
+**Onderstaande beslisregels worden gehanteerd voor het bepalen of het punt al dan niet goedgekeurd wordt.**
+
+-   Het proefvlak maakt deel uit van een homogene, grotere vegetatievlek van het doeltype (minimum 9 m^2^) -\> steekproeflocatie geschikt.
+-   Het proefvlak bevat naast het doeltype ook (een) ander vegetatietype die ruimtelijk duidelijk van elkaar gescheiden zijn (bv. bos naast een heideterrein, ven)
+    -   Het doeltype neemt minder dan 50% van het proefvlak in -\> steekproeflocatie ongeschikt.
+    -   Het doeltype neemt 50% of meer in van het proefvlak -\> steekproeflocatie geschikt.
+
+Voor de celgebaseerde types geldt enkel dat ze het minimumoppervlakte moeten halen binnen de rastercel.
 
 Geef in de GIS-applicatie de volgende gegevens in:
 
 -   je naam,
 -   de datum waarop je deze evaluatie uitvoert,
--   het actueel aanwezige habitat(sub)type of rbb in de cel of in het celmidden, en
--   eventuele opmerkingen
--   eventueel een foto.
+-   het actueel aanwezige habitat(sub)type of rbb in de cel of in het celmidden,
+-   de gebruikte markering,
+-   de nauwkeurigheid van de bepaling van het celmidden,
+-   eventuele opmerkingen,
+-   een foto van het celmidden.
 
 Komt het doeltype overeen, dan is de steekproeflocatie geschikt; voer aansluitend een celkartering en markering uit (zie \@ref(celkartering)).
 Komt het niet overeen, dan is de steekproeflocatie niet geschikt.
@@ -158,5 +174,6 @@ De mogelijke vervanglocaties zijn genummerd en dienen in die volgorde zoals besc
 In de GIS-applicatie duid je bij het in volgorde evalueren van de vervanglocaties telkens aan of een vervanglocatie bruikbaar is.
 Voldoet een eerstvolgende vervanglocatie, vink dit aan in de GIS-applicatie.
 Op dat moment stopt de vervangprocedure; sla de gegevens op in de GIS-applicatie.
+Passeer je onderweg tussen de opéénvolgende vervanglocaties nog langs andere punten die snel geevalueerd kunnen worden, vul dat dan aan bij de respectievelijke vervanglocaties.
 
 Werd een lokale vervanging gevonden, voer dan de celkartering en markering uit zoals hiervoor beschreven in \@ref(celkartering).
